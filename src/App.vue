@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="text-xl font-mono text-gray-700 font-bold">Apricot Scraper</h1>
+    <Scraper/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Scraper from './components/Scraper.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Scraper
   }
 }
 </script>
